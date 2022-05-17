@@ -1,0 +1,726 @@
+html {
+    height: 100%;
+    font-family: Lato,sans-serif;
+}
+html, body {
+    max-width: 100%;
+   
+}
+
+.info {
+    font-size: 20px;
+    padding-left: 5px;
+    width: 20px;
+    
+  }
+  
+  
+body {
+    margin: 0;
+    height: 100%;
+}
+
+
+
+h1 {
+    font-size: 55px;
+    margin: 10px 0;
+    color: #a55e3f;
+    font-family: 'Cinzel';
+}
+.checkvideo{
+ 
+    top:4200px;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900);
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  margin: 0;
+
+  background-size: cover;
+}
+
+video {
+  position: absolute;
+  top: 214px;
+  left: 0;
+  width: 100%;
+  height: 103%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.overlay {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.overlay h2 {
+   
+    color: tan;
+    font-weight: 600;
+    margin: 82rem 73rem 0;
+    mix-blend-mode: overlay;
+    padding: 5px 15px;
+    text-align: center;
+}
+header {
+	background:tan;
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+	padding: 0.5em;
+}
+nav a {
+    color: inherit;
+    padding: 0 12px;
+    text-decoration: none;
+}
+
+
+
+p.description {
+    font-size: 17px;
+    font-weight: 300;
+    font-style: italic;
+    color: #a55e3f;
+}
+
+p.small-description {
+    font-size: 15px;
+    color: #58595b;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.top-bar {
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    background: white;
+}
+
+.bar-container {
+    padding: 0 50px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.main-logo {
+    font-family: 'Cinzel';font-size: 22px;
+    color: #a55e3f;
+    font-size: 32px;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 25px 0;
+    height: 100%;
+    box-sizing: border-box;
+
+    justify-self: flex-start;
+}
+.dd {
+    font-family: 'Cinzel';font-size: 33px;
+    color: #a55e3f;
+ margin-left: 42.75%;
+ margin-top: -19%;
+ 
+    
+}
+.menu-bar {
+    height: 100%;
+    float: right;
+    padding: 12px 0px;
+    box-sizing: border-box;
+    font-size: 17px;
+    justify-self: center;
+}
+
+.menu-bar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar ul li {
+    display: block;
+    float: left;
+    text-transform: uppercase;
+    padding: 0 20px;
+    cursor: pointer;
+    color: #a55e3f;
+}
+
+.menu-bar ul li > span {
+    display: inline-block;
+}
+
+.menu-title {
+    padding: 0 5px;
+    letter-spacing: .28em;
+    margin-right: -.28em;
+}
+
+.menu-title:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    display: inline-block;
+    background-color: #a55e3f;
+    transition: width .3s ease;
+}
+
+.menu-bar ul li:hover .menu-title:after {
+width: 100%;
+}
+
+.section-landing {
+    height: 100%;
+    background-image: url("img/landing/main-rev-img-1.jpeg");
+    background-size: cover;
+    text-align: center;
+}
+
+.landing-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 90px 100px 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.landing-box {
+    width: 100%;
+    font-size: 32px;
+}
+
+.landing-box > h1 {
+    color: white;
+}
+
+.landing-box > .description {
+    color: white;
+    font-size: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.section-about {
+}
+
+/* ======================================== About Section ======================================== */
+
+.about-container{
+    display: flex;
+    flex-direction: row;
+    padding: 100px 100px;
+}
+
+.about-container .about-main {
+    width: 202%;
+    padding: 26px 47px 15px 146px;
+}
+
+.about-main > h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #a55e3f;
+}
+
+.about-container .about-sub {
+    width: 25%;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.about-container .about-sub h3 {
+    color: #a55e3f;
+}
+
+.about-view-more {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.about-view-more:hover .view-more-line {
+    margin-left: 0;
+}
+
+.about-view-more .view-more-line {
+    width: 30px;
+    height: 3px;
+    background-color: #a55e3f;
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-right: 5px;
+    margin-left: -10px;
+    transition: all 0.3s;
+}
+
+.about-view-more span {
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+/* ======================================== Portfolio Section ======================================== */
+
+.portfolio-container{
+    display: flex;
+    flex-direction: row;
+    padding: 0 100px;
+}
+
+.portfolio-main {
+    width: 50%;
+    height: 600px;
+}
+
+.portfolio-side {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-side-box {
+    height: 300px;
+}
+
+.portfolio-box-desc {
+    height: 50px;
+    width: 100%;
+    align-self: flex-end;
+    margin: 20px;
+    /* background-color: orangered; */
+    border-radius: 8px;
+    text-align: center;
+    transition: all .9s;
+    transform: translate(0,10px);
+    opacity: 0;
+}
+
+.portfolio-box {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+}
+
+.portfolio-box:hover .portfolio-box-desc {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.portfolio-box-desc > h3 {
+    margin-top: 15px;
+    margin-bottom: 0;
+    color :whitesmoke;
+}
+
+.portfolio-box-desc > p {
+  font-style: italic;
+    margin: 0;
+}
+
+#portfolio-box-1 {
+    background-image: url("https://i.ibb.co/TB3PB5x/Whats-App-Image-2022-05-16-at-6-39-58-PM.jpg");
+}
+
+#portfolio-box-2 {
+    background-image: url("https://i.ibb.co/VWvbVs3/456754565456.jpg");
+}
+
+#portfolio-box-3 {
+    background-image: url("https://i.ibb.co/jD6KRB1/Rajasthani-block-printing-Bargru-block-printing-community-Photo-credit-Lorna-Parkes-2.jpg");
+}
+
+#portfolio-box-4 {
+    background-image: url("https://i.ibb.co/sQWVtqx/CRAFT-CLUSTER-2021-4-1.png");
+}
+
+#portfolio-box-5 {
+    background-image: url("https://i.ibb.co/3FNvBHF/Whats-App-Image-2022-05-16-at-6-36-08-PM.jpg");
+}
+
+.main-section {
+    padding: 150px 100px;
+    text-align: center;
+}
+
+/* ======================================== Testimonials Section ======================================== */
+
+.testimonials-container{
+    padding: 150px 300px;
+    text-align: center;
+}
+
+.people-box .people-img
+{
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+background-size: cover;
+}
+#test-1 .people-img
+{
+  background-image: url("img/testimonial/testimonials-2.png");
+}
+
+.people-box {
+    margin-top: 50px;
+}
+
+.people-box .people-name {
+    margin: 15px 0 5px;
+    font-size: 17px;
+    color: #a55e37;
+}
+
+.people-box .people-desc {
+    font-family: Lato,sans-serif;
+    color: #58595b;
+    font-weight: 300;
+    margin: 0;
+}
+
+.shop-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.shop-element {
+    width: 33%;
+    height: 350px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.shop-element-banner-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    padding: 0 20%;
+    box-sizing: border-box;
+}
+
+.shop-element-banner {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.shop-element-banner h3 {
+    margin: 30px 0;
+}
+
+.shop-element:hover .shop-element-img {
+    transform: scale(1.05,1.05);
+}
+
+.shop-element .shop-element-img {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: all .2s ease-out;
+}
+
+#shop-element-1 .shop-element-img {
+    background-image: url("img/shop/shop-1.jpg");
+}
+
+#shop-element-2 .shop-element-img {
+    background-image: url("img/shop/shop-2.jpg");
+}
+
+#shop-element-3 .shop-element-img {
+    background-image: url("img/shop/shop-3.jpg");
+}
+
+#shop-element-1 .shop-element-banner {
+    background-color: #8d8132;
+    color: white;
+}
+
+#shop-element-2 .shop-element-banner {
+    background-color: #fbefe7;
+    color: #a55e3f;
+}
+
+#shop-element-3 .shop-element-banner {
+    background-color: #672900;
+    color: white;
+}
+
+.products-container{
+    padding: 150px 100px;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.product-box .product-img {
+    height: 330px;
+}
+
+.product-box .product-name {
+    margin: 0 0 5px;
+    font-size: 17px;
+}
+
+.product-box .product-desc {
+    font-family: Lato,sans-serif;
+    color: #58595b;
+    font-weight: 300;
+    margin: 0;
+}
+
+.product-box .product-price {
+    font-family: Lato,sans-serif;
+    color: #a55e3f;
+    font-weight: 400;
+    margin: 10px 0 0;
+}
+
+/* ======================================== Ethics Section ======================================== */
+
+.ethics-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.ethics-main {
+    width: 50%;
+    background-image: url("img/ethics/main.jpg");
+    background-size: cover;
+}
+
+.ethics-sub {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 60px;
+    box-sizing: border-box;
+    background-color: #fcf7f4;
+}
+
+.ethics-sub-col {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ethics-sub h3 {
+    color: #a55e3f;
+    margin: 15px 0 10px;
+}
+
+.ethics-sub p {
+    margin: 0;
+}
+
+.ethic-topic {
+    padding: 20px 30px;
+}
+
+.ethic-topic img {
+    transition: all 0.3s;
+}
+
+.ethic-topic:hover img {
+    transform: translate3d(0,-7px,0);
+}
+
+/* ======================================== Gallery Section ======================================== */
+
+.gallery-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery-element {
+    width: 20%;
+    height: 250px;
+    background-size: cover;
+}
+
+#gallery-element-1 {
+    background-image: url("img/gallery/1.jpg");
+}
+
+#gallery-element-2 {
+    background-image: url("img/gallery/2.jpg");
+}
+
+#gallery-element-3 {
+    background-image: url("img/gallery/3.jpg");
+}
+
+#gallery-element-4 {
+    background-image: url("img/gallery/4.jpg");
+}
+
+#gallery-element-5 {
+    background-image: url("img/gallery/5.jpg");
+}
+
+.team-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.team-box {
+    width: 33%;
+}
+
+.team-box .team-img {
+    height: 500px;
+}
+
+.team-box .team-name {
+    margin: 20px 0 5px;
+    font-size: 17px;
+    color: #a55e3f;
+}
+
+.team-box .team-desc {
+    font-family: Lato,sans-serif;
+    color: #58595b;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+.footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
+
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      /* Create two equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 300px; /* Should be removed. Only for demonstration */
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+.foot-bar {
+    height: 50px;
+    padding: 10px 100px;
+    background-color: saddlebrown;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+}
+
+.foot-bar {
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+
+.foot-logo {
+    font-family: Alegreya,serif;
+    color: #a55e3f;
+    font-size: 32px;
+}
+
+.check1{
+    margin-top:50%;
+}
